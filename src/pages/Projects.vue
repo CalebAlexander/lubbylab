@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import Card from "~/components/Card.vue";
+import Card from "~/components/utilities/Card.vue";
 
 export default {
   metaInfo: {

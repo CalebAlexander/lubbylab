@@ -7,7 +7,10 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "animejs": "^3.2.0",
     "gridsome": "^0.7.0",
+    "interactjs": "^1.9.9",
+    "lodash": "^4.17.15",
     "tailwindcss": "^1.2.0"
   }
 }

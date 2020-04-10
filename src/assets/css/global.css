@@ -1,0 +1,7 @@
+/* /src/assets/css/global.css */
+@tailwind base;
+@tailwind components;
+
+/* Tailwind utility class modifications go here */
+
+@tailwind utilities;

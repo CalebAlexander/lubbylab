@@ -2,14 +2,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        paletteBlue: '#a0ced9',
-        paletteYellow: '#fcf5c7',
-        paletteYellowDark: '#ffee93',
-        paletteRed: '#ffc09f',
-        paletteGreen: '#adf7b6',
+        paletteBlack: '#131515',
+        paletteGray: '#2c2c28',
+        paletteTeal: '#339989',
+        paletteMint: '#7de2d1',
+        paletteWhite: '#fffafb',
 
-        paletteGrayDark: '#4d4d4d',
-        paletteGrayLight: '#999999',
+        paletteLightBlue: '#b1ddf1',
+        paletteLightPurple: '#9f87af',
+        paletteDarkPurple: '#88527f',
+        paletteLightBrown: '#614344',
+        paletteDarkBrown: '#332c23',
+
+        paletteYellow: '#ffcf56'
       },
       maxHeight: {
         '0': '0',

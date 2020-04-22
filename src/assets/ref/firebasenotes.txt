@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBR3UPU6LeUp-n6OtS02ZAYHbdMNZ3huF0",
+    authDomain: "lubbylab-db.firebaseapp.com",
+    databaseURL: "https://lubbylab-db.firebaseio.com",
+    projectId: "lubbylab-db",
+    storageBucket: "lubbylab-db.appspot.com",
+    messagingSenderId: "618098030436",
+    appId: "1:618098030436:web:8b7ee6c830cb94f5d32c71",
+    measurementId: "G-FPGXZTB16H"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>

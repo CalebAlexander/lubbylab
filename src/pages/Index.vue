@@ -1,10 +1,10 @@
 <template>
   <Layout>
 
-    <div id="Index">
+    <div id="Index" class="bg-paletteBlack relative block z-0">
 
 
-      <NavBar />
+      
 
       <HomeBody />
       
@@ -20,9 +20,9 @@
 <script>
 
 // import "~/assets/css/global.css";
-import NavBar from "~/components/NavBar.vue"
+
 import HomeBody from "~/components/HomeBody.vue"
-import Footer from "~/components/Footer.vue"
+
 
 export default {
   metaInfo: {
@@ -30,9 +30,9 @@ export default {
   },
   name: 'Index',
   components: {
-    NavBar,
+    // NavBar,
     HomeBody,
-    Footer,
+    // Footer,
   },
 };
 </script>

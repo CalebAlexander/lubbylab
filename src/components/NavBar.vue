@@ -1,8 +1,8 @@
 <template>
     <!-- Header -->
-    <header class="absolute top-0 left-0 min-w-full">
-      <nav class="border-gray-500 border-solid border-2">
-        <div class="container mx-auto py-2 flex justify-between items-center">
+    <header class="">
+      <nav class="min-w-full bg-paletteGray">
+        <div class="container mx-auto py-2 flex justify-between items-center text-paletteWhite">
 
           <!-- SITE TITLE -->
           <div>

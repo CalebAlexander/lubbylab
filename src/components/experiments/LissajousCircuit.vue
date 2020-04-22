@@ -1,5 +1,8 @@
 <template>
-    <div>
+    <div class="bg-paletteGray px-4">
+        <div class="text-paletteWhite text-center">
+            <h3 class="inline-block text-3xl">Lissajous Circuit Viewer</h3>
+        </div>
         
 
 
@@ -5452,17 +5455,25 @@
             
 
         </svg>
-        <div>
-            <h1>Frequency 1: </h1>
-            <p> {{freq1}}</p>
-            <h1>Frequency 2: </h1>
-            <p>{{freq2}}</p>
+        
+        <div class="text-paletteWhite text-center">
+            <div class="inline-block mx-10">
+                <h3 class="inline-block text-paletteMint">Frequency 1:&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                <h3 class="inline-block">{{freq1}}</h3>
+            </div>
+            <div class="inline-block mx-10">
+                <h3 class="inline-block text-paletteMint">Frequency 2:&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                <h3 class="inline-block">{{freq2}}</h3>
+            </div>
         </div>
+
     </div>
 </template>
 
+
+
 <script>
-import interact from 'interactjs';
+const interact = require('interactjs')
 import anime from 'animejs/lib/anime.es.js';
 import {throttle} from 'lodash';
 
@@ -5807,8 +5818,8 @@ export default {
         });
 
         // Lissajous Path and LEDs
-        this.debouncedGetSine = _.throttle(this.getSine, 500, {leading:true, trailing:false});
-        this.debouncedGetSine();
+        this.debouncedGetSine = _.throttle(this.getSine, 250, {leading:true, trailing:false});
+        // this.debouncedGetSine();
 
 
         document.addEventListener('dragstart', (event) => {
